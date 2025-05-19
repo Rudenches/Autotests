@@ -1,0 +1,1001 @@
+time="2025-05-19T13:39:19+03:00" level=warning msg="C:\\Users\\Rudenches\\IdeaProjects\\romashka-telecom-main\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+brt  | 2025-05-19T10:13:09.693Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.FutureRollbackFromTagSqlCommandStep
+brt  | 2025-05-19T10:13:09.695Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.FutureRollbackSqlCommandStep
+brt  | 2025-05-19T10:13:09.698Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.GenerateChangelogCommandStep
+brt  | 2025-05-19T10:13:09.701Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.HistoryCommandStep
+brt  | 2025-05-19T10:13:09.703Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.InternalSnapshotCommandStep
+brt  | 2025-05-19T10:13:09.704Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.ListLocksCommandStep
+brt  | 2025-05-19T10:13:09.705Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.MarkNextChangesetRanCommandStep
+brt  | 2025-05-19T10:13:09.706Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.MarkNextChangesetRanSqlCommandStep
+brt  | 2025-05-19T10:13:09.706Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.ReleaseLocksCommandStep
+brt  | 2025-05-19T10:13:09.709Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.RollbackCommandStep
+brt  | 2025-05-19T10:13:09.710Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.RollbackCountCommandStep
+brt  | 2025-05-19T10:13:09.711Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.RollbackCountSqlCommandStep
+brt  | 2025-05-19T10:13:09.713Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.RollbackSqlCommandStep
+brt  | 2025-05-19T10:13:09.714Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.RollbackToDateCommandStep
+brt  | 2025-05-19T10:13:09.715Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.RollbackToDateSqlCommandStep
+brt  | 2025-05-19T10:13:09.716Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.SnapshotCommandStep
+brt  | 2025-05-19T10:13:09.718Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.SnapshotReferenceCommandStep
+brt  | 2025-05-19T10:13:09.722Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.StartH2CommandStep
+brt  | 2025-05-19T10:13:09.724Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.StatusCommandStep
+brt  | 2025-05-19T10:13:09.724Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.StopH2CommandStep
+brt  | 2025-05-19T10:13:09.725Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.TagCommandStep
+brt  | 2025-05-19T10:13:09.726Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.TagExistsCommandStep
+brt  | 2025-05-19T10:13:09.727Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.UnexpectedChangesetsCommandStep
+brt  | 2025-05-19T10:13:09.734Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.UpdateCommandStep
+brt  | 2025-05-19T10:13:09.736Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.UpdateCountCommandStep
+brt  | 2025-05-19T10:13:09.737Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.UpdateCountSqlCommandStep
+brt  | 2025-05-19T10:13:09.738Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.UpdateSqlCommandStep
+brt  | 2025-05-19T10:13:09.739Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.UpdateTestingRollbackCommandStep
+brt  | 2025-05-19T10:13:09.741Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.UpdateToTagCommandStep
+brt  | 2025-05-19T10:13:09.741Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.UpdateToTagSqlCommandStep
+brt  | 2025-05-19T10:13:09.742Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.ValidateCommandStep
+brt  | 2025-05-19T10:13:09.743Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.helpers.ChangeExecListenerCommandStep
+brt  | 2025-05-19T10:13:09.745Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.helpers.DatabaseChangelogCommandStep
+brt  | 2025-05-19T10:13:09.747Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.helpers.DbUrlConnectionArgumentsCommandStep
+brt  | 2025-05-19T10:13:09.748Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.helpers.DbUrlConnectionCommandStep
+brt  | 2025-05-19T10:13:09.750Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.helpers.DiffOutputControlCommandStep
+brt  | 2025-05-19T10:13:09.751Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.helpers.LockServiceCommandStep
+brt  | 2025-05-19T10:13:09.753Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.helpers.OutputWriterCommandStep
+brt  | 2025-05-19T10:13:09.757Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.helpers.PreCompareCommandStep
+brt  | 2025-05-19T10:13:09.757Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.helpers.ReferenceDatabaseOutputWriterCommandStep
+brt  | 2025-05-19T10:13:09.758Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.helpers.ReferenceDbUrlConnectionCommandStep
+brt  | 2025-05-19T10:13:09.760Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.command.CommandStep instance liquibase.command.core.helpers.ShowSummaryArgument
+brt  | 2025-05-19T10:13:09.767Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.strict found
+brt  | 2025-05-19T10:13:09.767Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.strict is using the default value of false
+brt  | 2025-05-19T10:13:09.772Z DEBUG 1 --- [           main] liquibase.configuration                  : Found 'liquibase.command.dropAll.catalogAndSchemas' configuration of '[Lliquibase.CatalogAndSchema;@457692cb'
+brt  |     command argument 'catalogAndSchemas' of '[Lliquibase.CatalogAndSchema;@457692cb'
+brt  | 2025-05-19T10:13:09.774Z DEBUG 1 --- [           main] liquibase.configuration                  : Found 'liquibase.command.dropAll.database' configuration of 'brt_user @ jdbc:postgresql://postgres-brt:5432/brt_db (Default Schema: public)'
+brt  |     command argument 'database' of 'brt_user @ jdbc:postgresql://postgres-brt:5432/brt_db (Default Schema: public)'
+brt  | 2025-05-19T10:13:09.775Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.dropAll.defaultCatalogName found
+brt  | 2025-05-19T10:13:09.775Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.defaultCatalogName found
+brt  | 2025-05-19T10:13:09.775Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.dropAll.defaultSchemaName found
+brt  | 2025-05-19T10:13:09.776Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.defaultSchemaName found
+brt  | 2025-05-19T10:13:09.776Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.dropAll.driver found
+brt  | 2025-05-19T10:13:09.777Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.driver found
+brt  | 2025-05-19T10:13:09.777Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.dropAll.driverPropertiesFile found
+brt  | 2025-05-19T10:13:09.777Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.driverPropertiesFile found
+brt  | 2025-05-19T10:13:09.778Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.dropAll.force found
+brt  | 2025-05-19T10:13:09.779Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.dropAll.force is using the default value of false
+brt  | 2025-05-19T10:13:09.780Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.force found
+brt  | 2025-05-19T10:13:09.780Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.force is using the default value of false
+brt  | 2025-05-19T10:13:09.781Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.dropAll.password found
+brt  | 2025-05-19T10:13:09.781Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.password found
+brt  | 2025-05-19T10:13:09.782Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.dropAll.requireForce found
+brt  | 2025-05-19T10:13:09.782Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.dropAll.requireForce is using the default value of false
+brt  | 2025-05-19T10:13:09.782Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.requireForce found
+brt  | 2025-05-19T10:13:09.783Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.requireForce is using the default value of false
+brt  | 2025-05-19T10:13:09.783Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.dropAll.schemas found
+brt  | 2025-05-19T10:13:09.784Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.schemas found
+brt  | 2025-05-19T10:13:09.784Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.dropAll.skipDatabaseStep found
+brt  | 2025-05-19T10:13:09.784Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.dropAll.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:09.785Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.skipDatabaseStep found
+brt  | 2025-05-19T10:13:09.785Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:09.785Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.dropAll.url found
+brt  | 2025-05-19T10:13:09.786Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.url found
+brt  | 2025-05-19T10:13:09.787Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.dropAll.username found
+brt  | 2025-05-19T10:13:09.787Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.username found
+brt  | 2025-05-19T10:13:09.788Z DEBUG 1 --- [           main] liquibase.command                        : Pipeline for command 'dropAll: liquibase.command.core.helpers.DbUrlConnectionArgumentsCommandStep then liquibase.command.core.helpers.DbUrlConnectionCommandStep then liquibase.command.core.DropAllCommandStep
+brt  | 2025-05-19T10:13:09.789Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.outputFile found
+brt  | 2025-05-19T10:13:09.790Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.outputFileEncoding found
+brt  | 2025-05-19T10:13:09.790Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.outputFileEncoding is using the default value of UTF-8
+brt  | 2025-05-19T10:13:09.790Z DEBUG 1 --- [           main] liquibase.command                        : Writing output with encoding 'UTF-8'
+brt  | 2025-05-19T10:13:09.790Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command dbUrlConnectionArguments
+brt  | 2025-05-19T10:13:09.791Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command dbUrlConnectionCommandStep
+brt  | 2025-05-19T10:13:09.791Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.dropAll.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:09.793Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:09.794Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command dropAll
+brt  | 2025-05-19T10:13:09.795Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.dropAll.requireForce is using the default value of false
+brt  | 2025-05-19T10:13:09.795Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.requireForce is using the default value of false
+brt  | 2025-05-19T10:13:09.796Z  INFO 1 --- [           main] liquibase.ui                             : INFO: The drop-all command may result in unrecoverable destructive changes to objects at 'jdbc:postgresql://postgres-brt:5432/brt_db'.
+brt  | To protect against unwanted drops, set --requireForce=true, which will require a --force=true flag on the command.
+brt  | Learn more at https://docs.liquibase.com/dropall.
+brt  | 
+brt  | 2025-05-19T10:13:09.800Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.changelogLockWaitTimeInMinutes aka liquibase.changeLogLockWaitTimeInMinutes found
+brt  | 2025-05-19T10:13:09.800Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.changelogLockWaitTimeInMinutes is using the default value of 5
+brt  | 2025-05-19T10:13:09.810Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:09.815Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:09.816Z DEBUG 1 --- [           main] liquibase.executor                       : Lock Database
+brt  | 2025-05-19T10:13:09.821Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:09.823Z  INFO 1 --- [           main] liquibase.lockservice                    : Successfully acquired change log lock
+brt  | 2025-05-19T10:13:09.828Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.MockChangeLogHistoryService
+brt  | 2025-05-19T10:13:09.830Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.StandardChangeLogHistoryService
+brt  | 2025-05-19T10:13:09.834Z  INFO 1 --- [           main] liquibase.command                        : Dropping Database Objects in schema: brt_db.public
+brt  | 2025-05-19T10:13:09.836Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Catalog
+brt  | 2025-05-19T10:13:09.836Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Column
+brt  | 2025-05-19T10:13:09.836Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Data
+brt  | 2025-05-19T10:13:09.837Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.ForeignKey
+brt  | 2025-05-19T10:13:09.837Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Index
+brt  | 2025-05-19T10:13:09.837Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.PrimaryKey
+brt  | 2025-05-19T10:13:09.837Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Schema
+brt  | 2025-05-19T10:13:09.837Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Sequence
+brt  | 2025-05-19T10:13:09.839Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.StoredProcedure
+brt  | 2025-05-19T10:13:09.839Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Table
+brt  | 2025-05-19T10:13:09.840Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.UniqueConstraint
+brt  | 2025-05-19T10:13:09.840Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.View
+brt  | 2025-05-19T10:13:09.842Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.shouldSnapshotData found
+brt  | 2025-05-19T10:13:09.842Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.shouldSnapshotData is using the default value of false
+brt  | 2025-05-19T10:13:09.846Z  INFO 1 --- [           main] liquibase.snapshot                       : Creating snapshot
+brt  | 2025-05-19T10:13:09.851Z DEBUG 1 --- [           main] liquibase.util                           : Computed checksum for 1747649589849 as ab6939055adae8d5cd96c6703984f468
+brt  | 2025-05-19T10:13:09.861Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.CatalogComparator
+brt  | 2025-05-19T10:13:09.862Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.ColumnComparator
+brt  | 2025-05-19T10:13:09.863Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.DefaultDatabaseObjectComparator
+brt  | 2025-05-19T10:13:09.865Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.ForeignKeyComparator
+brt  | 2025-05-19T10:13:09.865Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.IndexComparator
+brt  | 2025-05-19T10:13:09.866Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.PrimaryKeyComparator
+brt  | 2025-05-19T10:13:09.867Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.SchemaComparator
+brt  | 2025-05-19T10:13:09.868Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.TableComparator
+brt  | 2025-05-19T10:13:09.868Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.UniqueConstraintComparator
+brt  | 2025-05-19T10:13:09.958Z DEBUG 1 --- [           main] liquibase.database                       : Database snapshot generated in 113 ms. Snapshot includes: [class liquibase.structure.core.Table, class liquibase.structure.core.Catalog, class liquibase.structure.core.Schema, class liquibase.structure.core.View, class liquibase.structure.core.Sequence, class liquibase.structure.core.Column]
+brt  | 2025-05-19T10:13:09.961Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.DiffGenerator instance liquibase.diff.core.StandardDiffGenerator
+brt  | 2025-05-19T10:13:09.975Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedColumnChangeGenerator
+brt  | 2025-05-19T10:13:09.976Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedForeignKeyChangeGenerator
+brt  | 2025-05-19T10:13:09.977Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedIndexChangeGenerator
+brt  | 2025-05-19T10:13:09.978Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedPrimaryKeyChangeGenerator
+brt  | 2025-05-19T10:13:09.979Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedSequenceChangeGenerator
+brt  | 2025-05-19T10:13:09.980Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedTableChangeGenerator
+brt  | 2025-05-19T10:13:09.981Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedUniqueConstraintChangeGenerator
+brt  | 2025-05-19T10:13:09.982Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedViewChangeGenerator
+brt  | 2025-05-19T10:13:09.983Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingColumnChangeGenerator
+brt  | 2025-05-19T10:13:09.984Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingDataChangeGenerator
+brt  | 2025-05-19T10:13:09.984Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingForeignKeyChangeGenerator
+brt  | 2025-05-19T10:13:09.985Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingIndexChangeGenerator
+brt  | 2025-05-19T10:13:09.986Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingPrimaryKeyChangeGenerator
+brt  | 2025-05-19T10:13:09.987Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingSequenceChangeGenerator
+brt  | 2025-05-19T10:13:09.988Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingTableChangeGenerator
+brt  | 2025-05-19T10:13:09.989Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingUniqueConstraintChangeGenerator
+brt  | 2025-05-19T10:13:09.990Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingViewChangeGenerator
+brt  | 2025-05-19T10:13:09.991Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedColumnChangeGenerator
+brt  | 2025-05-19T10:13:09.992Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedForeignKeyChangeGenerator
+brt  | 2025-05-19T10:13:09.993Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedIndexChangeGenerator
+brt  | 2025-05-19T10:13:09.994Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedPrimaryKeyChangeGenerator
+brt  | 2025-05-19T10:13:09.995Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedSequenceChangeGenerator
+brt  | 2025-05-19T10:13:09.995Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedTableChangeGenerator
+brt  | 2025-05-19T10:13:09.996Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedUniqueConstraintChangeGenerator
+brt  | 2025-05-19T10:13:09.997Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedViewChangeGenerator
+brt  | 2025-05-19T10:13:09.998Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedSequenceChangeGeneratorSnowflake
+brt  | 2025-05-19T10:13:09.998Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingSequenceChangeGeneratorSnowflake
+brt  | 2025-05-19T10:13:10.000Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.generateChangesetCreatedValues aka liquibase.generateChangeSetCreatedValues found
+brt  | 2025-05-19T10:13:10.000Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.generateChangesetCreatedValues is using the default value of false
+brt  | 2025-05-19T10:13:10.002Z DEBUG 1 --- [           main] liquibase.diff                           : ChangedObjectChangeGenerator type order:     liquibase.structure.core.Catalog    liquibase.structure.core.ForeignKey    liquibase.structure.core.Schema    liquibase.structure.core.Sequence    liquibase.structure.core.Table    liquibase.structure.core.Column    liquibase.structure.core.PrimaryKey    liquibase.structure.core.UniqueConstraint    liquibase.structure.core.Index    liquibase.structure.core.View
+brt  | 2025-05-19T10:13:10.003Z DEBUG 1 --- [           main] liquibase.diff                           : MissingObjectChangeGenerator type order:     liquibase.structure.core.Catalog    liquibase.structure.core.Schema    liquibase.structure.core.Sequence    liquibase.structure.core.Table    liquibase.structure.core.Column    liquibase.structure.core.PrimaryKey    liquibase.structure.core.UniqueConstraint    liquibase.structure.core.Index    liquibase.structure.core.ForeignKey    liquibase.structure.core.View
+brt  | 2025-05-19T10:13:10.004Z DEBUG 1 --- [           main] liquibase.diff                           : UnexpectedObjectChangeGenerator type order:     liquibase.structure.core.Catalog    liquibase.structure.core.ForeignKey    liquibase.structure.core.Schema    liquibase.structure.core.UniqueConstraint    liquibase.structure.core.View    liquibase.structure.core.Table    liquibase.structure.core.PrimaryKey    liquibase.structure.core.Column    liquibase.structure.core.Index    liquibase.structure.core.Sequence
+brt  | 2025-05-19T10:13:10.050Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.changeset.ChangeSetService instance liquibase.changeset.StandardChangeSetService
+brt  | 2025-05-19T10:13:10.053Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.generatedChangesetIdsContainsDescription aka liquibase.generatedChangeSetIdsContainsDescription found
+brt  | 2025-05-19T10:13:10.053Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.generatedChangesetIdsContainsDescription is using the default value of false
+brt  | 2025-05-19T10:13:10.112Z DEBUG 1 --- [           main] liquibase.database                       : ChangeSet to Remove Database Objects generated in 154 ms.
+brt  | 2025-05-19T10:13:10.116Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.sql.logLevel found
+brt  | 2025-05-19T10:13:10.116Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.sql.logLevel is using the default value of FINE
+brt  | 2025-05-19T10:13:10.116Z DEBUG 1 --- [           main] liquibase.executor                       : DROP TABLE "public"."money_transactions" CASCADE
+brt  | 2025-05-19T10:13:10.129Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.132Z DEBUG 1 --- [           main] liquibase.executor                       : DROP TABLE "public"."transactions" CASCADE
+brt  | 2025-05-19T10:13:10.134Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.141Z DEBUG 1 --- [           main] liquibase.executor                       : DROP TABLE "public"."resources" CASCADE
+brt  | 2025-05-19T10:13:10.145Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.148Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.sql.showSqlWarnings found
+brt  | 2025-05-19T10:13:10.148Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.sql.showSqlWarnings is using the default value of true
+brt  | 2025-05-19T10:13:10.149Z  WARN 1 --- [           main] liquibase.executor                       : drop cascades to constraint caller_resources_resource_id_fkey on table caller_resources
+brt  | 2025-05-19T10:13:10.162Z DEBUG 1 --- [           main] liquibase.executor                       : DROP TABLE "public"."calls" CASCADE
+brt  | 2025-05-19T10:13:10.170Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.174Z DEBUG 1 --- [           main] liquibase.executor                       : DROP TABLE "public"."callers" CASCADE
+brt  | 2025-05-19T10:13:10.180Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.181Z  WARN 1 --- [           main] liquibase.executor                       : drop cascades to constraint caller_resources_caller_id_fkey on table caller_resources
+brt  | 2025-05-19T10:13:10.185Z DEBUG 1 --- [           main] liquibase.executor                       : DROP TABLE "public"."subscribers" CASCADE
+brt  | 2025-05-19T10:13:10.187Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.189Z DEBUG 1 --- [           main] liquibase.executor                       : DROP TABLE "public"."caller_resources" CASCADE
+brt  | 2025-05-19T10:13:10.191Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.387Z DEBUG 1 --- [           main] liquibase.executor                       : DROP TABLE "public"."databasechangelog"
+brt  | 2025-05-19T10:13:10.389Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.389Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.492Z DEBUG 1 --- [           main] liquibase.executor                       : DROP TABLE "public"."databasechangeloglock"
+brt  | 2025-05-19T10:13:10.493Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.493Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.495Z  INFO 1 --- [           main] liquibase.database                       : Successfully deleted all supported object types in schema brt_db.public.
+brt  | 2025-05-19T10:13:10.501Z  WARN 1 --- [           main] liquibase.lockservice                    : Failed to release change log lock
+brt  | 2025-05-19T10:13:10.503Z  INFO 1 --- [           main] liquibase.ui                             : All objects dropped from brt_user@jdbc:postgresql://postgres-brt:5432/brt_db
+brt  | 2025-05-19T10:13:10.504Z  INFO 1 --- [           main] liquibase.command                        : Command execution complete
+brt  | 2025-05-19T10:13:10.507Z DEBUG 1 --- [           main] liquibase.configuration                  : Found 'liquibase.command.clearChecksums.database' configuration of 'brt_user @ jdbc:postgresql://postgres-brt:5432/brt_db (Default Schema: public)'
+brt  |     command argument 'database' of 'brt_user @ jdbc:postgresql://postgres-brt:5432/brt_db (Default Schema: public)'
+brt  | 2025-05-19T10:13:10.507Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.clearChecksums.defaultCatalogName found
+brt  | 2025-05-19T10:13:10.508Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.clearChecksums.defaultSchemaName found
+brt  | 2025-05-19T10:13:10.508Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.clearChecksums.driver found
+brt  | 2025-05-19T10:13:10.508Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.clearChecksums.driverPropertiesFile found
+brt  | 2025-05-19T10:13:10.509Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.clearChecksums.password found
+brt  | 2025-05-19T10:13:10.510Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.clearChecksums.skipDatabaseStep found
+brt  | 2025-05-19T10:13:10.511Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.clearChecksums.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:10.511Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:10.513Z DEBUG 1 --- [           main] liquibase.configuration                  : Found 'liquibase.command.clearChecksums.url' configuration of 'jdbc:postgresql://postgres-brt:5432/brt_db'
+brt  |     command argument 'url' of '*****'
+brt  | 2025-05-19T10:13:10.514Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.clearChecksums.username found
+brt  | 2025-05-19T10:13:10.514Z DEBUG 1 --- [           main] liquibase.command                        : Pipeline for command 'clearChecksums: liquibase.command.core.helpers.DbUrlConnectionArgumentsCommandStep then liquibase.command.core.helpers.DbUrlConnectionCommandStep then liquibase.command.core.helpers.LockServiceCommandStep then liquibase.command.core.ClearChecksumsCommandStep
+brt  | 2025-05-19T10:13:10.514Z DEBUG 1 --- [           main] liquibase.command                        : Writing output with encoding 'UTF-8'
+brt  | 2025-05-19T10:13:10.515Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command dbUrlConnectionArguments
+brt  | 2025-05-19T10:13:10.515Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command dbUrlConnectionCommandStep
+brt  | 2025-05-19T10:13:10.515Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.clearChecksums.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:10.515Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:10.516Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command lockServiceCommandStep
+brt  | 2025-05-19T10:13:10.517Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.lockservice.LockService instance liquibase.lockservice.LockServiceImpl
+brt  | 2025-05-19T10:13:10.518Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.lockservice.LockService instance liquibase.lockservice.MockLockService
+brt  | 2025-05-19T10:13:10.518Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.lockservice.LockService instance liquibase.lockservice.OfflineLockService
+brt  | 2025-05-19T10:13:10.518Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.lockservice.LockService instance liquibase.lockservice.StandardLockService
+brt  | 2025-05-19T10:13:10.521Z DEBUG 1 --- [           main] liquibase.executor                       : Create Database Lock Table
+brt  | 2025-05-19T10:13:10.523Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.liquibaseTablespaceName aka liquibase.databaseChangeLogTablespaceName aka liquibase.liquibaseTableSpaceName found
+brt  | 2025-05-19T10:13:10.528Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.fileEncoding found
+brt  | 2025-05-19T10:13:10.528Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.fileEncoding is using the default value of UTF-8
+brt  | 2025-05-19T10:13:10.529Z DEBUG 1 --- [           main] liquibase.executor                       : CREATE TABLE public.databasechangeloglock (ID INTEGER NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP WITHOUT TIME ZONE, LOCKEDBY VARCHAR(255), CONSTRAINT databasechangeloglock_pkey PRIMARY KEY (ID))
+brt  | 2025-05-19T10:13:10.538Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.538Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.540Z DEBUG 1 --- [           main] liquibase.lockservice                    : Created database lock table with name: public.databasechangeloglock
+brt  | 2025-05-19T10:13:10.541Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.542Z DEBUG 1 --- [           main] liquibase.executor                       : Initialize Database Lock Table
+brt  | 2025-05-19T10:13:10.544Z DEBUG 1 --- [           main] liquibase.executor                       : DELETE FROM public.databasechangeloglock
+brt  | 2025-05-19T10:13:10.545Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.545Z DEBUG 1 --- [           main] liquibase.executor                       : INSERT INTO public.databasechangeloglock (ID, LOCKED) VALUES (1, FALSE)
+brt  | 2025-05-19T10:13:10.546Z DEBUG 1 --- [           main] liquibase.executor                       : 1 row(s) affected
+brt  | 2025-05-19T10:13:10.546Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.549Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.549Z DEBUG 1 --- [           main] liquibase.executor                       : Lock Database
+brt  | 2025-05-19T10:13:10.550Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.552Z  INFO 1 --- [           main] liquibase.lockservice                    : Successfully acquired change log lock
+brt  | 2025-05-19T10:13:10.553Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command clearChecksums
+brt  | 2025-05-19T10:13:10.555Z DEBUG 1 --- [           main] liquibase.executor                       : Create Database Change Log Table
+brt  | 2025-05-19T10:13:10.556Z  INFO 1 --- [           main] liquibase.changelog                      : Creating database history table with name: public.databasechangelog
+brt  | 2025-05-19T10:13:10.561Z DEBUG 1 --- [           main] liquibase.executor                       : CREATE TABLE public.databasechangelog (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED TIMESTAMP WITHOUT TIME ZONE NOT NULL, ORDEREXECUTED INTEGER NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35), DESCRIPTION VARCHAR(255), COMMENTS VARCHAR(255), TAG VARCHAR(255), LIQUIBASE VARCHAR(20), CONTEXTS VARCHAR(255), LABELS VARCHAR(255), DEPLOYMENT_ID VARCHAR(10))
+brt  | 2025-05-19T10:13:10.566Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.566Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.569Z  INFO 1 --- [           main] liquibase.command                        : Clearing database change log checksums for database postgresql
+brt  | 2025-05-19T10:13:10.570Z DEBUG 1 --- [           main] liquibase.executor                       : UPDATE public.databasechangelog SET MD5SUM = NULL
+brt  | 2025-05-19T10:13:10.571Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.571Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.572Z DEBUG 1 --- [           main] liquibase.executor                       : Release Database Lock
+brt  | 2025-05-19T10:13:10.574Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.576Z  INFO 1 --- [           main] liquibase.lockservice                    : Successfully released change log lock
+brt  | 2025-05-19T10:13:10.577Z  INFO 1 --- [           main] liquibase.command                        : Command execution complete
+brt  | 2025-05-19T10:13:10.580Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.changeExecListener found
+brt  | 2025-05-19T10:13:10.580Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.changeExecListener found
+brt  | 2025-05-19T10:13:10.581Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.changeExecListenerClass found
+brt  | 2025-05-19T10:13:10.581Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.changeExecListenerClass found
+brt  | 2025-05-19T10:13:10.581Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.changeExecListenerPropertiesFile found
+brt  | 2025-05-19T10:13:10.582Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.changeExecListenerPropertiesFile found
+brt  | 2025-05-19T10:13:10.582Z DEBUG 1 --- [           main] liquibase.configuration                  : Found 'liquibase.command.update.changelogFile' configuration of 'classpath:db/changelog/db.changelog-master.yaml'
+brt  |     command argument 'changelogFile' of 'classpath:db/changelog/db.changelog-master.yaml'
+brt  | 2025-05-19T10:13:10.582Z DEBUG 1 --- [           main] liquibase.configuration                  : Found 'liquibase.command.update.changelogParameters' configuration of 'liquibase.changelog.ChangeLogParameters@22429a11'
+brt  |     command argument 'changelogParameters' of 'liquibase.changelog.ChangeLogParameters@22429a11'
+brt  | 2025-05-19T10:13:10.583Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.contextFilter aka liquibase.command.update.contexts found
+brt  | 2025-05-19T10:13:10.583Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.contextFilter aka liquibase.command.contexts found
+brt  | 2025-05-19T10:13:10.583Z DEBUG 1 --- [           main] liquibase.configuration                  : Found 'liquibase.command.update.database' configuration of 'brt_user @ jdbc:postgresql://postgres-brt:5432/brt_db (Default Schema: public)'
+brt  |     command argument 'database' of 'brt_user @ jdbc:postgresql://postgres-brt:5432/brt_db (Default Schema: public)'
+brt  | 2025-05-19T10:13:10.584Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.databaseChangelog found
+brt  | 2025-05-19T10:13:10.584Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.databaseChangelog found
+brt  | 2025-05-19T10:13:10.585Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.defaultCatalogName found
+brt  | 2025-05-19T10:13:10.585Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.defaultSchemaName found
+brt  | 2025-05-19T10:13:10.585Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.driver found
+brt  | 2025-05-19T10:13:10.586Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.driverPropertiesFile found
+brt  | 2025-05-19T10:13:10.586Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.labelFilter aka liquibase.command.update.labels found
+brt  | 2025-05-19T10:13:10.588Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.labelFilter aka liquibase.command.labels found
+brt  | 2025-05-19T10:13:10.590Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.password found
+brt  | 2025-05-19T10:13:10.590Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.showSummary found
+brt  | 2025-05-19T10:13:10.591Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.update.showSummary is using the default value of SUMMARY
+brt  | 2025-05-19T10:13:10.591Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.showSummary found
+brt  | 2025-05-19T10:13:10.591Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.showSummary is using the default value of SUMMARY
+brt  | 2025-05-19T10:13:10.592Z DEBUG 1 --- [           main] liquibase.configuration                  : Found 'liquibase.command.update.showSummaryOutput' configuration of 'LOG'
+brt  |     command argument 'showSummaryOutput' of 'LOG'
+brt  | 2025-05-19T10:13:10.592Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.skipDatabaseStep found
+brt  | 2025-05-19T10:13:10.593Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.update.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:10.593Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:10.593Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.updateNullChecksums found
+brt  | 2025-05-19T10:13:10.593Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.update.updateNullChecksums is using the default value of false
+brt  | 2025-05-19T10:13:10.593Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.updateNullChecksums found
+brt  | 2025-05-19T10:13:10.593Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.updateNullChecksums is using the default value of false
+brt  | 2025-05-19T10:13:10.594Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.url found
+brt  | 2025-05-19T10:13:10.594Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.command.update.username found
+brt  | 2025-05-19T10:13:10.594Z DEBUG 1 --- [           main] liquibase.command                        : Pipeline for command 'update: liquibase.command.core.helpers.DbUrlConnectionArgumentsCommandStep then liquibase.command.core.helpers.ShowSummaryArgument then liquibase.command.core.helpers.DbUrlConnectionCommandStep then liquibase.command.core.helpers.DatabaseChangelogCommandStep then liquibase.command.core.helpers.ChangeExecListenerCommandStep then liquibase.command.core.UpdateCommandStep
+brt  | 2025-05-19T10:13:10.595Z DEBUG 1 --- [           main] liquibase.command                        : Writing output with encoding 'UTF-8'
+brt  | 2025-05-19T10:13:10.595Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command dbUrlConnectionArguments
+brt  | 2025-05-19T10:13:10.595Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command showSummary
+brt  | 2025-05-19T10:13:10.595Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.update.showSummary is using the default value of SUMMARY
+brt  | 2025-05-19T10:13:10.595Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.showSummary is using the default value of SUMMARY
+brt  | 2025-05-19T10:13:10.595Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command dbUrlConnectionCommandStep
+brt  | 2025-05-19T10:13:10.595Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.update.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:10.595Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.command.skipDatabaseStep is using the default value of false
+brt  | 2025-05-19T10:13:10.596Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command changelogCommandStep
+brt  | 2025-05-19T10:13:10.606Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.formattedsql.FormattedSqlChangeLogParser
+brt  | 2025-05-19T10:13:10.609Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.json.JsonChangeLogParser
+brt  | 2025-05-19T10:13:10.611Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.sql.SqlChangeLogParser
+brt  | 2025-05-19T10:13:10.621Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.validateXmlChangelogFiles found
+brt  | 2025-05-19T10:13:10.621Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.validateXmlChangelogFiles is using the default value of true
+brt  | 2025-05-19T10:13:10.621Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.secureParsing found
+brt  | 2025-05-19T10:13:10.621Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.secureParsing is using the default value of true
+brt  | 2025-05-19T10:13:10.621Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.xml.XMLChangeLogSAXParser
+brt  | 2025-05-19T10:13:10.622Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.yaml.YamlChangeLogParser
+brt  | 2025-05-19T10:13:10.623Z DEBUG 1 --- [           main] liquibase.parser                         : Matched file 'classpath:db/changelog/db.changelog-master.yaml' to parser 'YamlChangeLogParser'
+brt  | 2025-05-19T10:13:10.638Z DEBUG 1 --- [           main] liquibase.parser                         : Matched file 'db/changelog/v1-initial-schema.yaml' to parser 'YamlChangeLogParser'
+brt  | 2025-05-19T10:13:10.645Z DEBUG 1 --- [           main] liquibase.parser                         : Matched file 'db/changelog/v2-add-data.yaml' to parser 'YamlChangeLogParser'
+brt  | 2025-05-19T10:13:10.648Z DEBUG 1 --- [           main] liquibase.configuration                  : Found 'liquibase.command.update.updateNullChecksums' configuration of 'true'
+brt  |     command argument 'updateNullChecksums' of 'true'
+brt  | 2025-05-19T10:13:10.649Z  INFO 1 --- [           main] liquibase.changelog                      : Reading from public.databasechangelog
+brt  | 2025-05-19T10:13:10.651Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.653Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.lockservice.LockService instance liquibase.lockservice.LockServiceImpl
+brt  | 2025-05-19T10:13:10.653Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.lockservice.LockService instance liquibase.lockservice.MockLockService
+brt  | 2025-05-19T10:13:10.653Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.lockservice.LockService instance liquibase.lockservice.OfflineLockService
+brt  | 2025-05-19T10:13:10.653Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.lockservice.LockService instance liquibase.lockservice.StandardLockService
+brt  | 2025-05-19T10:13:10.655Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.657Z DEBUG 1 --- [           main] liquibase.configuration                  : No configuration value for liquibase.allowDuplicatedChangesetIdentifiers found
+brt  | 2025-05-19T10:13:10.657Z DEBUG 1 --- [           main] liquibase.configuration                  : Configuration liquibase.allowDuplicatedChangesetIdentifiers is using the default value of false
+brt  | 2025-05-19T10:13:10.660Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.changelog.visitor.ValidatingVisitorGenerator instance liquibase.changelog.visitor.StandardValidatingVisitorGenerator
+brt  | 2025-05-19T10:13:10.668Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command changeExecListener
+brt  | 2025-05-19T10:13:10.669Z DEBUG 1 --- [           main] liquibase.command                        : Executing internal command update migrate
+brt  | 2025-05-19T10:13:10.683Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.684Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.685Z DEBUG 1 --- [           main] liquibase.executor                       : Lock Database
+brt  | 2025-05-19T10:13:10.686Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.688Z  INFO 1 --- [           main] liquibase.lockservice                    : Successfully acquired change log lock
+brt  | 2025-05-19T10:13:10.689Z  INFO 1 --- [           main] liquibase.command                        : Using deploymentId: 7649590688
+brt  | 2025-05-19T10:13:10.691Z  INFO 1 --- [           main] liquibase.changelog                      : Reading from public.databasechangelog
+brt  | 2025-05-19T10:13:10.692Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.710Z DEBUG 1 --- [           main] liquibase.util                           : Computed checksum for inputStream as e27638cdd722714f16e16fa836f92d3a
+brt  | 2025-05-19T10:13:10.711Z DEBUG 1 --- [           main] liquibase.util                           : Computed checksum for 9:e27638cdd722714f16e16fa836f92d3a: as d14ab5cbe938679ae01f593770fc4bf4
+brt  | 2025-05-19T10:13:10.714Z DEBUG 1 --- [           main] liquibase.util                           : Computed checksum for inputStream as 25e782d082bdeda59eb725ce98261013
+brt  | 2025-05-19T10:13:10.714Z DEBUG 1 --- [           main] liquibase.util                           : Computed checksum for 9:25e782d082bdeda59eb725ce98261013: as 95d1cb2620c11f78bb8dd84c10b0d706
+brt  | 2025-05-19T10:13:10.719Z DEBUG 1 --- [           main] liquibase.util                           : Computed checksum for inputStream as e27638cdd722714f16e16fa836f92d3a
+brt  | 2025-05-19T10:13:10.719Z DEBUG 1 --- [           main] liquibase.util                           : Computed checksum for 9:e27638cdd722714f16e16fa836f92d3a: as d14ab5cbe938679ae01f593770fc4bf4
+brt  | 2025-05-19T10:13:10.720Z  INFO 1 --- [           main] liquibase.ui                             : Running Changeset: db/changelog/v1-initial-schema.yaml::1::romashka
+brt  | 2025-05-19T10:13:10.720Z DEBUG 1 --- [           main] liquibase.changelog                      : Running Changeset: db/changelog/v1-initial-schema.yaml::1::romashka
+brt  | 2025-05-19T10:13:10.721Z DEBUG 1 --- [           main] liquibase.executor                       : Changeset db/changelog/v1-initial-schema.yaml::1::romashka
+brt  | 2025-05-19T10:13:10.722Z DEBUG 1 --- [           main] liquibase.changelog                      : Reading ChangeSet: db/changelog/v1-initial-schema.yaml::1::romashka
+brt  | 2025-05-19T10:13:10.727Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.parser.LiquibaseSqlParser instance liquibase.util.StandardSqlParser
+brt  | 2025-05-19T10:13:10.765Z DEBUG 1 --- [           main] liquibase.executor                       : Executing Statement: -- Таблица для хранения подписчиков
+brt  | CREATE TABLE subscribers (
+brt  |     subscriber_id   BIGSERIAL        PRIMARY KEY,
+brt  |     subscriber_name VARCHAR(100)  NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.766Z DEBUG 1 --- [           main] liquibase.executor                       : -- Таблица для хранения подписчиков
+brt  | CREATE TABLE subscribers (
+brt  |     subscriber_id   BIGSERIAL        PRIMARY KEY,
+brt  |     subscriber_name VARCHAR(100)  NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.771Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.772Z DEBUG 1 --- [           main] liquibase.executor                       : Executing Statement: -- Таблица для хранения абонентов
+brt  | CREATE TABLE callers (
+brt  |     caller_id     BIGSERIAL    PRIMARY KEY,
+brt  |     subscriber_id BIGSERIAL       NOT NULL
+brt  |         REFERENCES subscribers(subscriber_id)
+brt  |         ON DELETE RESTRICT,
+brt  |     number        VARCHAR(20) NOT NULL,
+brt  |     rate_id       BIGSERIAL       NOT NULL,
+brt  |     rate_date     TIMESTAMP NOT NULL,
+brt  |     balance       DECIMAL(10, 2) NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.772Z DEBUG 1 --- [           main] liquibase.executor                       : -- Таблица для хранения абонентов
+brt  | CREATE TABLE callers (
+brt  |     caller_id     BIGSERIAL    PRIMARY KEY,
+brt  |     subscriber_id BIGSERIAL       NOT NULL
+brt  |         REFERENCES subscribers(subscriber_id)
+brt  |         ON DELETE RESTRICT,
+brt  |     number        VARCHAR(20) NOT NULL,
+brt  |     rate_id       BIGSERIAL       NOT NULL,
+brt  |     rate_date     TIMESTAMP NOT NULL,
+brt  |     balance       DECIMAL(10, 2) NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.778Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.778Z DEBUG 1 --- [           main] liquibase.executor                       : Executing Statement: -- Таблица для хранения звонков
+brt  | CREATE TABLE calls (
+brt  |     call_id        BIGSERIAL      PRIMARY KEY,
+brt  |     caller_id      BIGSERIAL         NOT NULL
+brt  |                                REFERENCES callers(caller_id)
+brt  |                                ON DELETE CASCADE,
+brt  |     call_type      VARCHAR(2) NOT NULL,
+brt  |     contact_number VARCHAR(20) NOT NULL,
+brt  |     start_time     TIMESTAMP   NOT NULL,
+brt  |     end_time       TIMESTAMP   NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.779Z DEBUG 1 --- [           main] liquibase.executor                       : -- Таблица для хранения звонков
+brt  | CREATE TABLE calls (
+brt  |     call_id        BIGSERIAL      PRIMARY KEY,
+brt  |     caller_id      BIGSERIAL         NOT NULL
+brt  |                                REFERENCES callers(caller_id)
+brt  |                                ON DELETE CASCADE,
+brt  |     call_type      VARCHAR(2) NOT NULL,
+brt  |     contact_number VARCHAR(20) NOT NULL,
+brt  |     start_time     TIMESTAMP   NOT NULL,
+brt  |     end_time       TIMESTAMP   NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.784Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.784Z DEBUG 1 --- [           main] liquibase.executor                       : Executing Statement: -- Таблица для хранения ресурсов
+brt  | CREATE TABLE resources (
+brt  |     resource_id BIGSERIAL PRIMARY KEY,
+brt  |     resource_name VARCHAR(20) NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.785Z DEBUG 1 --- [           main] liquibase.executor                       : -- Таблица для хранения ресурсов
+brt  | CREATE TABLE resources (
+brt  |     resource_id BIGSERIAL PRIMARY KEY,
+brt  |     resource_name VARCHAR(20) NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.789Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.789Z DEBUG 1 --- [           main] liquibase.executor                       : Executing Statement: -- Таблица для хранения ресурсов абонентов
+brt  | CREATE TABLE caller_resources (
+brt  |     caller_id BIGINT NOT NULL REFERENCES callers(caller_id) ON DELETE CASCADE,
+brt  |     resource_id BIGINT NOT NULL REFERENCES resources(resource_id) ON DELETE CASCADE,
+brt  |     current_balance DECIMAL(10, 2) NOT NULL,
+brt  |     PRIMARY KEY (caller_id, resource_id)
+brt  | )
+brt  | 2025-05-19T10:13:10.790Z DEBUG 1 --- [           main] liquibase.executor                       : -- Таблица для хранения ресурсов абонентов
+brt  | CREATE TABLE caller_resources (
+brt  |     caller_id BIGINT NOT NULL REFERENCES callers(caller_id) ON DELETE CASCADE,
+brt  |     resource_id BIGINT NOT NULL REFERENCES resources(resource_id) ON DELETE CASCADE,
+brt  |     current_balance DECIMAL(10, 2) NOT NULL,
+brt  |     PRIMARY KEY (caller_id, resource_id)
+brt  | )
+brt  | 2025-05-19T10:13:10.794Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.795Z DEBUG 1 --- [           main] liquibase.executor                       : Executing Statement: -- Таблица для хранения транзакций
+brt  | CREATE TABLE transactions (
+brt  |     transaction_id BIGSERIAL PRIMARY KEY,
+brt  |     caller_id BIGINT NOT NULL REFERENCES callers(caller_id) ON DELETE CASCADE,
+brt  |     transaction_type VARCHAR(10) NOT NULL,
+brt  |     resource_id BIGINT NOT NULL REFERENCES resources(resource_id) ON DELETE RESTRICT,
+brt  |     resource_amount DECIMAL(10, 2) NOT NULL,
+brt  |     transaction_date TIMESTAMP NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.795Z DEBUG 1 --- [           main] liquibase.executor                       : -- Таблица для хранения транзакций
+brt  | CREATE TABLE transactions (
+brt  |     transaction_id BIGSERIAL PRIMARY KEY,
+brt  |     caller_id BIGINT NOT NULL REFERENCES callers(caller_id) ON DELETE CASCADE,
+brt  |     transaction_type VARCHAR(10) NOT NULL,
+brt  |     resource_id BIGINT NOT NULL REFERENCES resources(resource_id) ON DELETE RESTRICT,
+brt  |     resource_amount DECIMAL(10, 2) NOT NULL,
+brt  |     transaction_date TIMESTAMP NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.800Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.801Z DEBUG 1 --- [           main] liquibase.executor                       : Executing Statement: -- Таблица для хранения денежных транзакций
+brt  | CREATE TABLE money_transactions (
+brt  |     transaction_id BIGSERIAL PRIMARY KEY,
+brt  |     caller_id BIGINT NOT NULL REFERENCES callers(caller_id) ON DELETE CASCADE,
+brt  |     resource_amount DECIMAL(19,2) NOT NULL,
+brt  |     transaction_type VARCHAR(50) NOT NULL,
+brt  |     transaction_date TIMESTAMP NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.801Z DEBUG 1 --- [           main] liquibase.executor                       : -- Таблица для хранения денежных транзакций
+brt  | CREATE TABLE money_transactions (
+brt  |     transaction_id BIGSERIAL PRIMARY KEY,
+brt  |     caller_id BIGINT NOT NULL REFERENCES callers(caller_id) ON DELETE CASCADE,
+brt  |     resource_amount DECIMAL(19,2) NOT NULL,
+brt  |     transaction_type VARCHAR(50) NOT NULL,
+brt  |     transaction_date TIMESTAMP NOT NULL
+brt  | )
+brt  | 2025-05-19T10:13:10.805Z DEBUG 1 --- [           main] liquibase.executor                       : 0 row(s) affected
+brt  | 2025-05-19T10:13:10.806Z  INFO 1 --- [           main] liquibase.changelog                      : SQL in file classpath:db/changelog/sql/v1-initial-schema.sql executed
+brt  | 2025-05-19T10:13:10.809Z  INFO 1 --- [           main] liquibase.changelog                      : ChangeSet db/changelog/v1-initial-schema.yaml::1::romashka ran successfully in 88ms
+brt  | 2025-05-19T10:13:10.813Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.815Z DEBUG 1 --- [           main] liquibase.executor                       : INSERT INTO public.databasechangelog (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('1', 'romashka', 'db/changelog/v1-initial-schema.yaml', NOW(), 1, '9:d14ab5cbe938679ae01f593770fc4bf4', 'sqlFile path=classpath:db/changelog/sql/v1-initial-schema.sql', '', 'EXECUTED', NULL, NULL, '4.29.2', '7649590688')
+brt  | 2025-05-19T10:13:10.816Z DEBUG 1 --- [           main] liquibase.executor                       : 1 row(s) affected
+brt  | 2025-05-19T10:13:10.816Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.820Z DEBUG 1 --- [           main] liquibase.util                           : Computed checksum for inputStream as 25e782d082bdeda59eb725ce98261013
+brt  | 2025-05-19T10:13:10.820Z DEBUG 1 --- [           main] liquibase.util                           : Computed checksum for 9:25e782d082bdeda59eb725ce98261013: as 95d1cb2620c11f78bb8dd84c10b0d706
+brt  | 2025-05-19T10:13:10.820Z  INFO 1 --- [           main] liquibase.ui                             : Running Changeset: db/changelog/v2-add-data.yaml::2::romashka
+brt  | 2025-05-19T10:13:10.820Z DEBUG 1 --- [           main] liquibase.changelog                      : Running Changeset: db/changelog/v2-add-data.yaml::2::romashka
+brt  | 2025-05-19T10:13:10.821Z DEBUG 1 --- [           main] liquibase.executor                       : Changeset db/changelog/v2-add-data.yaml::2::romashka
+brt  | 2025-05-19T10:13:10.821Z DEBUG 1 --- [           main] liquibase.changelog                      : Reading ChangeSet: db/changelog/v2-add-data.yaml::2::romashka
+brt  | 2025-05-19T10:13:10.836Z DEBUG 1 --- [           main] liquibase.executor                       : Executing Statement: -- db/sql/v2-add-data.sql
+brt  | 
+brt  | -- заполнение справочников
+brt  | INSERT INTO subscribers (subscriber_name) VALUES
+brt  |   ('Иван Иванов Игоревич'),
+brt  |   ('Пётр Петров Петрович'),
+brt  |   ('Мария Смирнова Ивановна'),
+brt  |   ('Александр Александрович Александров'),
+brt  |   ('Елена Петровна Иванова'),
+brt  |   ('Дмитрий Сергеевич Петров'),
+brt  |   ('Ольга Александровна Смирнова')
+brt  | 2025-05-19T10:13:10.836Z DEBUG 1 --- [           main] liquibase.executor                       : -- db/sql/v2-add-data.sql
+brt  | 
+brt  | -- заполнение справочников
+brt  | INSERT INTO subscribers (subscriber_name) VALUES
+brt  |   ('Иван Иванов Игоревич'),
+brt  |   ('Пётр Петров Петрович'),
+brt  |   ('Мария Смирнова Ивановна'),
+brt  |   ('Александр Александрович Александров'),
+brt  |   ('Елена Петровна Иванова'),
+brt  |   ('Дмитрий Сергеевич Петров'),
+brt  |   ('Ольга Александровна Смирнова')
+brt  | 2025-05-19T10:13:10.837Z DEBUG 1 --- [           main] liquibase.executor                       : 7 row(s) affected
+brt  | 2025-05-19T10:13:10.838Z DEBUG 1 --- [           main] liquibase.executor                       : Executing Statement: -- звонки
+brt  | INSERT INTO callers (subscriber_id, number, rate_id, rate_date, balance) VALUES
+brt  |   (1, '79001112233', 11, '2025-01-01T00:00:00', 100.00),
+brt  |   (2, '79002223344', 12, '2025-01-01T00:00:00', 100.00),
+brt  |   (3, '79003334455', 11, '2025-01-01T00:00:00', 100.00),
+brt  |   (4, '79004445566', 11, '2025-01-01T00:00:00', 100.00),
+brt  |   (5, '79005556677', 12, '2025-01-01T00:00:00', 100.00),
+brt  |   (6, '79006667788', 11, '2025-01-01T00:00:00', 100.00),
+brt  |   (7, '79872332221', 12, '2025-01-01T00:00:00', 100.00),
+brt  |   (2, '79008889900', 12, '2025-01-01T00:00:00', 100.00),
+brt  |   (3, '79009990011', 11, '2025-01-01T00:00:00', 100.00),
+brt  |   (3, '79001001122', 11, '2025-01-01T00:00:00', 100.00)
+brt  | 2025-05-19T10:13:10.838Z DEBUG 1 --- [           main] liquibase.executor                       : -- звонки
+brt  | INSERT INTO callers (subscriber_id, number, rate_id, rate_date, balance) VALUES
+brt  |   (1, '79001112233', 11, '2025-01-01T00:00:00', 100.00),
+brt  |   (2, '79002223344', 12, '2025-01-01T00:00:00', 100.00),
+brt  |   (3, '79003334455', 11, '2025-01-01T00:00:00', 100.00),
+brt  |   (4, '79004445566', 11, '2025-01-01T00:00:00', 100.00),
+brt  |   (5, '79005556677', 12, '2025-01-01T00:00:00', 100.00),
+brt  |   (6, '79006667788', 11, '2025-01-01T00:00:00', 100.00),
+brt  |   (7, '79872332221', 12, '2025-01-01T00:00:00', 100.00),
+brt  |   (2, '79008889900', 12, '2025-01-01T00:00:00', 100.00),
+brt  |   (3, '79009990011', 11, '2025-01-01T00:00:00', 100.00),
+brt  |   (3, '79001001122', 11, '2025-01-01T00:00:00', 100.00)
+brt  | 2025-05-19T10:13:10.840Z DEBUG 1 --- [           main] liquibase.executor                       : 10 row(s) affected
+brt  | 2025-05-19T10:13:10.841Z DEBUG 1 --- [           main] liquibase.executor                       : Executing Statement: -- заполнение типов ресурсов
+brt  | INSERT INTO resources (resource_name) VALUES
+brt  |   ('minutes'),
+brt  |   ('SMS'),
+brt  |   ('Gb')
+brt  | 2025-05-19T10:13:10.841Z DEBUG 1 --- [           main] liquibase.executor                       : -- заполнение типов ресурсов
+brt  | INSERT INTO resources (resource_name) VALUES
+brt  |   ('minutes'),
+brt  |   ('SMS'),
+brt  |   ('Gb')
+brt  | 2025-05-19T10:13:10.842Z DEBUG 1 --- [           main] liquibase.executor                       : 3 row(s) affected
+brt  | 2025-05-19T10:13:10.842Z DEBUG 1 --- [           main] liquibase.executor                       : Executing Statement: -- заполнение ресурсов абонентов
+brt  | INSERT INTO caller_resources (caller_id, resource_id, current_balance) VALUES
+brt  |   (1, 1, 0.00),
+brt  |   (2, 1, 50.00),
+brt  |   (3, 1, 0.00),
+brt  |   (4, 1, 0.00),
+brt  |   (5, 1, 50.00),
+brt  |   (6, 1, 0.00),
+brt  |   (7, 1, 50.00),
+brt  |   (8, 1, 50.00),
+brt  |   (9, 1, 0.00),
+brt  |   (10, 1, 0.00)
+brt  | 2025-05-19T10:13:10.843Z DEBUG 1 --- [           main] liquibase.executor                       : -- заполнение ресурсов абонентов
+brt  | INSERT INTO caller_resources (caller_id, resource_id, current_balance) VALUES
+brt  |   (1, 1, 0.00),
+brt  |   (2, 1, 50.00),
+brt  |   (3, 1, 0.00),
+brt  |   (4, 1, 0.00),
+brt  |   (5, 1, 50.00),
+brt  |   (6, 1, 0.00),
+brt  |   (7, 1, 50.00),
+brt  |   (8, 1, 50.00),
+brt  |   (9, 1, 0.00),
+brt  |   (10, 1, 0.00)
+brt  | 2025-05-19T10:13:10.847Z DEBUG 1 --- [           main] liquibase.executor                       : 10 row(s) affected
+brt  | 2025-05-19T10:13:10.847Z  INFO 1 --- [           main] liquibase.changelog                      : SQL in file classpath:db/changelog/sql/v2-add-data.sql executed
+brt  | 2025-05-19T10:13:10.850Z  INFO 1 --- [           main] liquibase.changelog                      : ChangeSet db/changelog/v2-add-data.yaml::2::romashka ran successfully in 29ms
+brt  | 2025-05-19T10:13:10.851Z DEBUG 1 --- [           main] liquibase.executor                       : INSERT INTO public.databasechangelog (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('2', 'romashka', 'db/changelog/v2-add-data.yaml', NOW(), 2, '9:95d1cb2620c11f78bb8dd84c10b0d706', 'sqlFile path=classpath:db/changelog/sql/v2-add-data.sql', '', 'EXECUTED', NULL, NULL, '4.29.2', '7649590688')
+brt  | 2025-05-19T10:13:10.852Z DEBUG 1 --- [           main] liquibase.executor                       : 1 row(s) affected
+brt  | 2025-05-19T10:13:10.853Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.858Z DEBUG 1 --- [           main] liquibase.servicelocator                 : Loaded liquibase.report.ShowSummaryGenerator instance liquibase.report.StandardShowSummaryGenerator
+brt  | 2025-05-19T10:13:10.862Z  INFO 1 --- [           main] liquibase.util                           : UPDATE SUMMARY
+brt  | 2025-05-19T10:13:10.862Z  INFO 1 --- [           main] liquibase.util                           : Run:                          2
+brt  | 2025-05-19T10:13:10.862Z  INFO 1 --- [           main] liquibase.util                           : Previously run:               0
+brt  | 2025-05-19T10:13:10.862Z  INFO 1 --- [           main] liquibase.util                           : Filtered out:                 0
+brt  | 2025-05-19T10:13:10.863Z  INFO 1 --- [           main] liquibase.util                           : -------------------------------
+brt  | 2025-05-19T10:13:10.863Z  INFO 1 --- [           main] liquibase.util                           : Total change sets:            2
+brt  | 2025-05-19T10:13:10.865Z  INFO 1 --- [           main] liquibase.util                           : Update summary generated
+brt  | 2025-05-19T10:13:10.870Z  INFO 1 --- [           main] liquibase.command                        : Update command completed successfully.
+brt  | 2025-05-19T10:13:10.870Z  INFO 1 --- [           main] liquibase.ui                             : Liquibase: Update has been successful. Rows affected: 32
+brt  | 2025-05-19T10:13:10.870Z DEBUG 1 --- [           main] liquibase.executor                       : Release Database Lock
+brt  | 2025-05-19T10:13:10.873Z DEBUG 1 --- [           main] liquibase.executor                       : Changelog query completed.
+brt  | 2025-05-19T10:13:10.875Z  INFO 1 --- [           main] liquibase.lockservice                    : Successfully released change log lock
+brt  | 2025-05-19T10:13:10.876Z  INFO 1 --- [           main] liquibase.command                        : Command execution complete
+brt  | 2025-05-19T10:13:11.771Z  WARN 1 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+brt  | 2025-05-19T10:13:13.358Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : RabbitMQ Configuration:
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : BrtToHrs Queue: brt-to-hrs.queue
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : BrtToHrs Exchange: brt-to-hrs.exchange
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : BrtToHrs Routing key: brt-to-hrs.routingkey
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : HrsToBrt Queue: hrs-to-brt.queue
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : HrsToBrt Exchange: hrs-to-brt.exchange
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : HrsToBrt Routing key: hrs-to-brt.routingkey
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : Monthly Fee Brt to Hrs Queue: monthly-fee-brt-to-hrs.queue
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : Monthly Fee Brt to Hrs Exchange: monthly-fee-brt-to-hrs.exchange
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : Monthly Fee Brt to Hrs Routing key: monthly-fee-brt-to-hrs.routingkey
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : Monthly Fee Hrs to Brt Queue: monthly-fee-hrs-to-brt.queue
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : Monthly Fee Hrs to Brt Exchange: monthly-fee-hrs-to-brt.exchange
+brt  | 2025-05-19T10:13:13.359Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : Monthly Fee Hrs to Brt Routing key: monthly-fee-hrs-to-brt.routingkey
+brt  | 2025-05-19T10:13:13.360Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : CDR Queue: cdr.queue
+brt  | 2025-05-19T10:13:13.360Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : CDR Exchange: cdr.exchange
+brt  | 2025-05-19T10:13:13.360Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : CDR Routing key: cdr.routingkey
+brt  | 2025-05-19T10:13:13.443Z  INFO 1 --- [           main] c.r.r.brt.config.RabbitMQConfig          : Configured hrsRabbitTemplate with exchange: brt-to-hrs.exchange and routing key: brt-to-hrs.routingkey
+brt  | 2025-05-19T10:13:14.831Z  WARN 1 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+brt  | 2025-05-19T10:13:15.719Z DEBUG 1 --- [           main] .a.r.l.a.MessagingMessageListenerAdapter : Inferred argument type for public void com.romashka.romashka_telecom.brt.service.impl.CdrDataListenerServiceImpl.handleFile(java.lang.String) is class java.lang.String
+brt  | 2025-05-19T10:13:15.726Z DEBUG 1 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : No global properties bean
+brt  | 2025-05-19T10:13:15.726Z DEBUG 1 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : No global properties bean
+brt  | 2025-05-19T10:13:15.727Z DEBUG 1 --- [           main] .a.r.l.a.MessagingMessageListenerAdapter : Inferred argument type for public void com.romashka.romashka_telecom.brt.service.impl.HrsListenerServiceImpl.handleHrsMessage(com.romashka.romashka_telecom.brt.model.HrsRequest) is class com.romashka.romashka_telecom.brt.model.HrsRequest
+brt  | 2025-05-19T10:13:15.727Z DEBUG 1 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : No global properties bean
+brt  | 2025-05-19T10:13:15.728Z DEBUG 1 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : No global properties bean
+brt  | 2025-05-19T10:13:15.728Z DEBUG 1 --- [           main] .a.r.l.a.MessagingMessageListenerAdapter : Inferred argument type for public void com.romashka.romashka_telecom.brt.service.impl.MonthlyFeeListenerServiceImpl.handleMonthlyFeeResponse(com.romashka.romashka_telecom.brt.model.MonthlyFeeResponse) is class com.romashka.romashka_telecom.brt.model.MonthlyFeeResponse
+brt  | 2025-05-19T10:13:15.730Z DEBUG 1 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : No global properties bean
+brt  | 2025-05-19T10:13:15.829Z DEBUG 1 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : Starting Rabbit listener container.
+brt  | 2025-05-19T10:13:15.834Z  INFO 1 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [rabbitmq:5672]
+brt  | 2025-05-19T10:13:15.923Z  INFO 1 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#678a7489:0/SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:13:15.930Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : Initializing declarations
+brt  | 2025-05-19T10:13:15.948Z DEBUG 1 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Creating cached Rabbit Channel from AMQChannel(amqp://guest@172.18.0.2:5672/,1)
+brt  | 2025-05-19T10:13:15.962Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitAdmin$$Lambda$2151/0x00007f5530c939f0 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,1), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:13:15.962Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Exchange 'brt-to-hrs.exchange'
+brt  | 2025-05-19T10:13:15.965Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Exchange 'hrs-to-brt.exchange'
+brt  | 2025-05-19T10:13:15.966Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Exchange 'monthly-fee-brt-to-hrs.exchange'
+brt  | 2025-05-19T10:13:15.967Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Exchange 'monthly-fee-hrs-to-brt.exchange'
+brt  | 2025-05-19T10:13:15.968Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Exchange 'cdr.exchange'
+brt  | 2025-05-19T10:13:15.969Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Queue 'brt-to-hrs.queue'
+brt  | 2025-05-19T10:13:15.972Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Queue 'hrs-to-brt.queue'
+brt  | 2025-05-19T10:13:15.973Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Queue 'monthly-fee-brt-to-hrs.queue'
+brt  | 2025-05-19T10:13:15.974Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Queue 'monthly-fee-hrs-to-brt.queue'
+brt  | 2025-05-19T10:13:15.975Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Queue 'cdr.queue'
+brt  | 2025-05-19T10:13:15.977Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : Binding destination [brt-to-hrs.queue (QUEUE)] to exchange [brt-to-hrs.exchange] with routing key [brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:13:15.980Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : Binding destination [hrs-to-brt.queue (QUEUE)] to exchange [hrs-to-brt.exchange] with routing key [hrs-to-brt.routingkey]
+brt  | 2025-05-19T10:13:15.982Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : Binding destination [monthly-fee-brt-to-hrs.queue (QUEUE)] to exchange [monthly-fee-brt-to-hrs.exchange] with routing key [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:13:15.983Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : Binding destination [monthly-fee-hrs-to-brt.queue (QUEUE)] to exchange [monthly-fee-hrs-to-brt.exchange] with routing key [monthly-fee-hrs-to-brt.routingkey]
+brt  | 2025-05-19T10:13:15.984Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : Binding destination [cdr.queue (QUEUE)] to exchange [cdr.exchange] with routing key [cdr.routingkey]
+brt  | 2025-05-19T10:13:15.987Z DEBUG 1 --- [           main] o.s.amqp.rabbit.core.RabbitAdmin         : Declarations finished
+brt  | 2025-05-19T10:13:15.998Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitAdmin$$Lambda$2160/0x00007f5530c9a4c0 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,1), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:13:16.005Z DEBUG 1 --- [ntContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Starting consumer Consumer@66fd7b2: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:13:16.015Z DEBUG 1 --- [ntContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Started on queue 'cdr.queue' with tag amq.ctag-6Om5qgpWE-a5EkNEIq1buQ: Consumer@66fd7b2: tags=[[]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,1), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884], acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:13:16.015Z DEBUG 1 --- [pool-2-thread-3] o.s.a.r.listener.BlockingQueueConsumer   : ConsumeOK: Consumer@66fd7b2: tags=[[amq.ctag-6Om5qgpWE-a5EkNEIq1buQ]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,1), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884], acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:13:16.015Z DEBUG 1 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : Starting Rabbit listener container.
+brt  | 2025-05-19T10:13:16.020Z DEBUG 1 --- [ntContainer#1-1] o.s.a.r.c.CachingConnectionFactory       : Creating cached Rabbit Channel from AMQChannel(amqp://guest@172.18.0.2:5672/,2)
+brt  | 2025-05-19T10:13:16.021Z DEBUG 1 --- [ntContainer#1-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitAdmin$$Lambda$2160/0x00007f5530c9a4c0 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,2), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:13:16.022Z DEBUG 1 --- [ntContainer#1-1] o.s.a.r.listener.BlockingQueueConsumer   : Starting consumer Consumer@726c1889: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:13:16.024Z DEBUG 1 --- [ntContainer#1-1] o.s.a.r.listener.BlockingQueueConsumer   : Started on queue 'hrs-to-brt.queue' with tag amq.ctag-1_7RHhhVHoxtVx2ILzgI9w: Consumer@726c1889: tags=[[]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,2), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884], acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:13:16.025Z DEBUG 1 --- [pool-2-thread-4] o.s.a.r.listener.BlockingQueueConsumer   : ConsumeOK: Consumer@726c1889: tags=[[amq.ctag-1_7RHhhVHoxtVx2ILzgI9w]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,2), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884], acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:13:16.025Z DEBUG 1 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : Starting Rabbit listener container.
+brt  | 2025-05-19T10:13:16.029Z DEBUG 1 --- [ntContainer#2-1] o.s.a.r.c.CachingConnectionFactory       : Creating cached Rabbit Channel from AMQChannel(amqp://guest@172.18.0.2:5672/,3)
+brt  | 2025-05-19T10:13:16.029Z DEBUG 1 --- [ntContainer#2-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitAdmin$$Lambda$2160/0x00007f5530c9a4c0 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,3), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:13:16.030Z DEBUG 1 --- [ntContainer#2-1] o.s.a.r.listener.BlockingQueueConsumer   : Starting consumer Consumer@7da7a932: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:13:16.033Z DEBUG 1 --- [pool-2-thread-5] o.s.a.r.listener.BlockingQueueConsumer   : ConsumeOK: Consumer@7da7a932: tags=[[amq.ctag-nOSLO8LZ1RD1DIdL1GX3VA]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,3), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884], acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:13:16.033Z DEBUG 1 --- [ntContainer#2-1] o.s.a.r.listener.BlockingQueueConsumer   : Started on queue 'monthly-fee-hrs-to-brt.queue' with tag amq.ctag-nOSLO8LZ1RD1DIdL1GX3VA: Consumer@7da7a932: tags=[[]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,3), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884], acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:13:16.052Z  INFO 1 --- [           main] c.r.romashka_telecom.brt.BRTApplication  : Started BRTApplication in 11.37 seconds (process running for 12.082)
+brt  | 2025-05-19T10:14:50.408Z DEBUG 1 --- [pool-2-thread-6] o.s.a.r.listener.BlockingQueueConsumer   : Storing delivery for consumerTag: 'amq.ctag-6Om5qgpWE-a5EkNEIq1buQ' with deliveryTag: '1' in Consumer@66fd7b2: tags=[[amq.ctag-6Om5qgpWE-a5EkNEIq1buQ]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,1), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884], acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:14:50.425Z DEBUG 1 --- [ntContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Received message: (Body:'[B@3b3691d3(byte[396])' MessageProperties [headers={__TypeId__=java.lang.String}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=cdr.exchange, receivedRoutingKey=cdr.routingkey, deliveryTag=1, consumerTag=amq.ctag-6Om5qgpWE-a5EkNEIq1buQ, consumerQueue=cdr.queue])
+brt  | 2025-05-19T10:14:50.436Z DEBUG 1 --- [ntContainer#0-1] .a.r.l.a.MessagingMessageListenerAdapter : Processing [GenericMessage [payload=byte[396], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=cdr.exchange, amqp_deliveryTag=1, amqp_consumerQueue=cdr.queue, amqp_redelivered=false, amqp_receivedRoutingKey=cdr.routingkey, amqp_contentEncoding=UTF-8, amqp_retryCount=0, id=01767750-7ed9-3f19-7c3e-b24186b6b35f, amqp_consumerTag=amq.ctag-6Om5qgpWE-a5EkNEIq1buQ, amqp_lastInBatch=false, contentType=application/json, __TypeId__=java.lang.String, timestamp=1747649690435}]]
+brt  | 2025-05-19T10:14:50.468Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataListenerServiceImpl   : Получили CSV-пакет (390 байт)
+brt  | 2025-05-19T10:14:50.473Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataListenerServiceImpl   : Распарсили 4 записей
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.number 
+brt  |     from
+brt  |         callers c1_0
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number in (?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | 2025-05-19T10:14:50.631Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : Сохранено 3 звонков в таблицу calls
+brt  | 2025-05-19T10:38:15.130Z DEBUG 1 --- [pool-2-thread-7] o.s.a.r.listener.BlockingQueueConsumer   : Storing delivery for consumerTag: 'amq.ctag-6Om5qgpWE-a5EkNEIq1buQ' with deliveryTag: '2' in Consumer@66fd7b2: tags=[[amq.ctag-6Om5qgpWE-a5EkNEIq1buQ]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,1), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884], acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:38:15.130Z DEBUG 1 --- [ntContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Received message: (Body:'[B@2e05a47c(byte[915])' MessageProperties [headers={__TypeId__=java.lang.String}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=cdr.exchange, receivedRoutingKey=cdr.routingkey, deliveryTag=2, consumerTag=amq.ctag-6Om5qgpWE-a5EkNEIq1buQ, consumerQueue=cdr.queue])
+brt  | 2025-05-19T10:38:15.131Z DEBUG 1 --- [ntContainer#0-1] .a.r.l.a.MessagingMessageListenerAdapter : Processing [GenericMessage [payload=byte[915], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=cdr.exchange, amqp_deliveryTag=2, amqp_consumerQueue=cdr.queue, amqp_redelivered=false, amqp_receivedRoutingKey=cdr.routingkey, amqp_contentEncoding=UTF-8, amqp_retryCount=0, id=fcd614ab-b99e-29f2-f282-b424f40a6a18, amqp_consumerTag=amq.ctag-6Om5qgpWE-a5EkNEIq1buQ, amqp_lastInBatch=false, contentType=application/json, __TypeId__=java.lang.String, timestamp=1747651095131}]]
+brt  | 2025-05-19T10:38:15.131Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataListenerServiceImpl   : Получили CSV-пакет (893 байт)
+brt  | 2025-05-19T10:38:15.133Z  WARN 1 --- [ntContainer#0-1] c.r.r.brt.service.impl.CdrCsvParserImpl  : Ошибка валидации: ошибка при разборе даты и времени - Text '2025-05-1T10:06:43.0340908' could not be parsed at index 8
+brt  | 2025-05-19T10:38:15.133Z  WARN 1 --- [ntContainer#0-1] c.r.r.brt.service.impl.CdrCsvParserImpl  : Строка CDR не прошла валидацию: 02,79178748447,79002223344,2025-05-11T10:04:52.0340908,2025-05-1T10:06:43.0340908
+brt  | 2025-05-19T10:38:15.134Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataListenerServiceImpl   : Распарсили 9 записей
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.number 
+brt  |     from
+brt  |         callers c1_0
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number in (?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | 2025-05-19T10:38:15.155Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : Сохранено 3 звонков в таблицу calls
+brt  | 2025-05-19T10:38:15.155Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 🟢 Начата обработка звонков за 2025-05-05
+brt  | 2025-05-19T10:38:15.155Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 📊 Всего звонков для обработки за 2025-05-05: 4
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         cr1_0.caller_id,
+brt  |         cr1_0.current_balance,
+brt  |         cr1_0.resource_id 
+brt  |     from
+brt  |         caller_resources cr1_0 
+brt  |     where
+brt  |         cr1_0.caller_id=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         r1_0.resource_id,
+brt  |         r1_0.resource_name 
+brt  |     from
+brt  |         resources r1_0 
+brt  |     where
+brt  |         r1_0.resource_id=?
+brt  | 2025-05-19T10:38:15.192Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 🚀 Сформировано сообщение для биллинга: BillingMessage(callerId=1, rateId=11, durationMinutes=9, callType=OUTGOING, networkType=INTERNAL, resources={money=100.0, minutes=0.0})
+brt  | 2025-05-19T10:38:15.193Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка сообщения в HRS: BillingMessage(callerId=1, rateId=11, durationMinutes=9, callType=OUTGOING, networkType=INTERNAL, resources={money=100.0, minutes=0.0})
+brt  | 2025-05-19T10:38:15.241Z DEBUG 1 --- [ntContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Creating cached Rabbit Channel from AMQChannel(amqp://guest@172.18.0.2:5672/,4)
+brt  | 2025-05-19T10:38:15.241Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.242Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@69479566(byte[135])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.BillingMessage}, contentType=application/json, contentEncoding=UTF-8, contentLength=135, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [brt-to-hrs.exchange], routingKey = [brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.246Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Successfully sent billing message
+brt  | 2025-05-19T10:38:15.246Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 📞 Сформирован и отправлен биллинг для звонка: BillingMessage(callerId=1, rateId=11, durationMinutes=9, callType=OUTGOING, networkType=INTERNAL, resources={money=100.0, minutes=0.0})
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         cr1_0.caller_id,
+brt  |         cr1_0.current_balance,
+brt  |         cr1_0.resource_id 
+brt  |     from
+brt  |         caller_resources cr1_0 
+brt  |     where
+brt  |         cr1_0.caller_id=?
+brt  | 2025-05-19T10:38:15.257Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 🚀 Сформировано сообщение для биллинга: BillingMessage(callerId=7, rateId=12, durationMinutes=9, callType=INCOMING, networkType=INTERNAL, resources={money=100.0, minutes=50.0})
+brt  | 2025-05-19T10:38:15.257Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка сообщения в HRS: BillingMessage(callerId=7, rateId=12, durationMinutes=9, callType=INCOMING, networkType=INTERNAL, resources={money=100.0, minutes=50.0})
+brt  | 2025-05-19T10:38:15.258Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.259Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@777e32e3(byte[136])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.BillingMessage}, contentType=application/json, contentEncoding=UTF-8, contentLength=136, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [brt-to-hrs.exchange], routingKey = [brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.259Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Successfully sent billing message
+brt  | 2025-05-19T10:38:15.259Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 📞 Сформирован и отправлен биллинг для звонка: BillingMessage(callerId=7, rateId=12, durationMinutes=9, callType=INCOMING, networkType=INTERNAL, resources={money=100.0, minutes=50.0})
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         cr1_0.caller_id,
+brt  |         cr1_0.current_balance,
+brt  |         cr1_0.resource_id 
+brt  |     from
+brt  |         caller_resources cr1_0 
+brt  |     where
+brt  |         cr1_0.caller_id=?
+brt  | 2025-05-19T10:38:15.271Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 🚀 Сформировано сообщение для биллинга: BillingMessage(callerId=1, rateId=11, durationMinutes=9, callType=OUTGOING, networkType=INTERNAL, resources={money=100.0, minutes=0.0})
+brt  | 2025-05-19T10:38:15.272Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка сообщения в HRS: BillingMessage(callerId=1, rateId=11, durationMinutes=9, callType=OUTGOING, networkType=INTERNAL, resources={money=100.0, minutes=0.0})
+brt  | 2025-05-19T10:38:15.272Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.272Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@53ba138b(byte[135])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.BillingMessage}, contentType=application/json, contentEncoding=UTF-8, contentLength=135, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [brt-to-hrs.exchange], routingKey = [brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.273Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Successfully sent billing message
+brt  | 2025-05-19T10:38:15.273Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 📞 Сформирован и отправлен биллинг для звонка: BillingMessage(callerId=1, rateId=11, durationMinutes=9, callType=OUTGOING, networkType=INTERNAL, resources={money=100.0, minutes=0.0})
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         cr1_0.caller_id,
+brt  |         cr1_0.current_balance,
+brt  |         cr1_0.resource_id 
+brt  |     from
+brt  |         caller_resources cr1_0 
+brt  |     where
+brt  |         cr1_0.caller_id=?
+brt  | 2025-05-19T10:38:15.285Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 🚀 Сформировано сообщение для биллинга: BillingMessage(callerId=7, rateId=12, durationMinutes=9, callType=INCOMING, networkType=INTERNAL, resources={money=100.0, minutes=50.0})
+brt  | 2025-05-19T10:38:15.285Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка сообщения в HRS: BillingMessage(callerId=7, rateId=12, durationMinutes=9, callType=INCOMING, networkType=INTERNAL, resources={money=100.0, minutes=50.0})
+brt  | 2025-05-19T10:38:15.285Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.285Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@253c6ddd(byte[136])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.BillingMessage}, contentType=application/json, contentEncoding=UTF-8, contentLength=136, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [brt-to-hrs.exchange], routingKey = [brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.286Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Successfully sent billing message
+brt  | 2025-05-19T10:38:15.286Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 📞 Сформирован и отправлен биллинг для звонка: BillingMessage(callerId=7, rateId=12, durationMinutes=9, callType=INCOMING, networkType=INTERNAL, resources={money=100.0, minutes=50.0})
+brt  | 2025-05-19T10:38:15.286Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 🔵 Успешно обработано звонков за 2025-05-05: 4
+brt  | 2025-05-19T10:38:15.287Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : ⏰ [BillingService] Инициирована проверка и списание абонплаты за модельный день: 2025-05-05
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0
+brt  | 2025-05-19T10:38:15.296Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 1: MonthlyFeeRequest(callerId=1, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.296Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=1, subscriberId=1, number=79001112233, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.299Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.299Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@11cdef33(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.300Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 2: MonthlyFeeRequest(callerId=2, rateId=12, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.300Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=2, subscriberId=2, number=79002223344, rateId=12, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.301Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.301Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@2ee8bf76(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.302Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 3: MonthlyFeeRequest(callerId=3, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.302Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=3, subscriberId=3, number=79003334455, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.302Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.303Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@18cceb5f(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.303Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 4: MonthlyFeeRequest(callerId=4, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.303Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=4, subscriberId=4, number=79004445566, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.304Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.304Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@24981ff3(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.304Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 5: MonthlyFeeRequest(callerId=5, rateId=12, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.304Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=5, subscriberId=5, number=79005556677, rateId=12, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.305Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.305Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@5ad2d824(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.305Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 6: MonthlyFeeRequest(callerId=6, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.306Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=6, subscriberId=6, number=79006667788, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.306Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.306Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@31aadf07(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.307Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 7: MonthlyFeeRequest(callerId=7, rateId=12, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.307Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=7, subscriberId=7, number=79872332221, rateId=12, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.307Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.307Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@4ec34c7e(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.308Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 8: MonthlyFeeRequest(callerId=8, rateId=12, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.308Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=8, subscriberId=2, number=79008889900, rateId=12, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.308Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.308Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@2a40a5d2(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.309Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 9: MonthlyFeeRequest(callerId=9, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.309Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=9, subscriberId=3, number=79009990011, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.309Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.309Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@661f5b46(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.310Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 10: MonthlyFeeRequest(callerId=10, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.310Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=10, subscriberId=3, number=79001001122, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.310Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.310Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@1aaf265(byte[53])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=53, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:39:19.477Z DEBUG 1 --- [pool-2-thread-8] o.s.a.r.listener.BlockingQueueConsumer   : Storing delivery for consumerTag: 'amq.ctag-6Om5qgpWE-a5EkNEIq1buQ' with deliveryTag: '3' in Consumer@66fd7b2: tags=[[amq.ctag-6Om5qgpWE-a5EkNEIq1buQ]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,1), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884], acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:39:19.477Z DEBUG 1 --- [ntContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Received message: (Body:'[B@555eee92(byte[915])' MessageProperties [headers={__TypeId__=java.lang.String}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=cdr.exchange, receivedRoutingKey=cdr.routingkey, deliveryTag=3, consumerTag=amq.ctag-6Om5qgpWE-a5EkNEIq1buQ, consumerQueue=cdr.queue])
+brt  | 2025-05-19T10:39:19.478Z DEBUG 1 --- [ntContainer#0-1] .a.r.l.a.MessagingMessageListenerAdapter : Processing [GenericMessage [payload=byte[915], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=cdr.exchange, amqp_deliveryTag=3, amqp_consumerQueue=cdr.queue, amqp_redelivered=false, amqp_receivedRoutingKey=cdr.routingkey, amqp_contentEncoding=UTF-8, amqp_retryCount=0, id=8a9a4ff1-04ef-dca3-e5c6-4be6475d0157, amqp_consumerTag=amq.ctag-6Om5qgpWE-a5EkNEIq1buQ, amqp_lastInBatch=false, contentType=application/json, __TypeId__=java.lang.String, timestamp=1747651159477}]]
+brt  | 2025-05-19T10:39:19.478Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataListenerServiceImpl   : Получили CSV-пакет (893 байт)
+brt  | 2025-05-19T10:39:19.479Z  WARN 1 --- [ntContainer#0-1] c.r.r.brt.service.impl.CdrCsvParserImpl  : Ошибка валидации: ошибка при разборе даты и времени - Text '2025-05-1T10:06:43.0340908' could not be parsed at index 8
+brt  | 2025-05-19T10:39:19.479Z  WARN 1 --- [ntContainer#0-1] c.r.r.brt.service.impl.CdrCsvParserImpl  : Строка CDR не прошла валидацию: 02,79178748447,79002223344,2025-05-11T10:04:52.0340908,2025-05-1T10:06:43.0340908
+brt  | 2025-05-19T10:39:19.480Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataListenerServiceImpl   : Распарсили 9 записей
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.number 
+brt  |     from
+brt  |         callers c1_0
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number in (?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | 2025-05-19T10:39:19.496Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : Сохранено 3 звонков в таблицу calls

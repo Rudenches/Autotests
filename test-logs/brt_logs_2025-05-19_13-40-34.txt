@@ -1,0 +1,201 @@
+time="2025-05-19T13:40:35+03:00" level=warning msg="C:\\Users\\Rudenches\\IdeaProjects\\romashka-telecom-main\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         cr1_0.caller_id,
+brt  |         cr1_0.current_balance,
+brt  |         cr1_0.resource_id 
+brt  |     from
+brt  |         caller_resources cr1_0 
+brt  |     where
+brt  |         cr1_0.caller_id=?
+brt  | 2025-05-19T10:38:15.271Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 🚀 Сформировано сообщение для биллинга: BillingMessage(callerId=1, rateId=11, durationMinutes=9, callType=OUTGOING, networkType=INTERNAL, resources={money=100.0, minutes=0.0})
+brt  | 2025-05-19T10:38:15.272Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка сообщения в HRS: BillingMessage(callerId=1, rateId=11, durationMinutes=9, callType=OUTGOING, networkType=INTERNAL, resources={money=100.0, minutes=0.0})
+brt  | 2025-05-19T10:38:15.272Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.272Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@53ba138b(byte[135])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.BillingMessage}, contentType=application/json, contentEncoding=UTF-8, contentLength=135, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [brt-to-hrs.exchange], routingKey = [brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.273Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Successfully sent billing message
+brt  | 2025-05-19T10:38:15.273Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 📞 Сформирован и отправлен биллинг для звонка: BillingMessage(callerId=1, rateId=11, durationMinutes=9, callType=OUTGOING, networkType=INTERNAL, resources={money=100.0, minutes=0.0})
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number=?
+brt  | Hibernate: 
+brt  |     select
+brt  |         cr1_0.caller_id,
+brt  |         cr1_0.current_balance,
+brt  |         cr1_0.resource_id 
+brt  |     from
+brt  |         caller_resources cr1_0 
+brt  |     where
+brt  |         cr1_0.caller_id=?
+brt  | 2025-05-19T10:38:15.285Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 🚀 Сформировано сообщение для биллинга: BillingMessage(callerId=7, rateId=12, durationMinutes=9, callType=INCOMING, networkType=INTERNAL, resources={money=100.0, minutes=50.0})
+brt  | 2025-05-19T10:38:15.285Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка сообщения в HRS: BillingMessage(callerId=7, rateId=12, durationMinutes=9, callType=INCOMING, networkType=INTERNAL, resources={money=100.0, minutes=50.0})
+brt  | 2025-05-19T10:38:15.285Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.285Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@253c6ddd(byte[136])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.BillingMessage}, contentType=application/json, contentEncoding=UTF-8, contentLength=136, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [brt-to-hrs.exchange], routingKey = [brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.286Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Successfully sent billing message
+brt  | 2025-05-19T10:38:15.286Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 📞 Сформирован и отправлен биллинг для звонка: BillingMessage(callerId=7, rateId=12, durationMinutes=9, callType=INCOMING, networkType=INTERNAL, resources={money=100.0, minutes=50.0})
+brt  | 2025-05-19T10:38:15.286Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : 🔵 Успешно обработано звонков за 2025-05-05: 4
+brt  | 2025-05-19T10:38:15.287Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : ⏰ [BillingService] Инициирована проверка и списание абонплаты за модельный день: 2025-05-05
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0
+brt  | 2025-05-19T10:38:15.296Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 1: MonthlyFeeRequest(callerId=1, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.296Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=1, subscriberId=1, number=79001112233, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.299Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.299Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@11cdef33(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.300Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 2: MonthlyFeeRequest(callerId=2, rateId=12, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.300Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=2, subscriberId=2, number=79002223344, rateId=12, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.301Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.301Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@2ee8bf76(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.302Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 3: MonthlyFeeRequest(callerId=3, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.302Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=3, subscriberId=3, number=79003334455, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.302Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.303Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@18cceb5f(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.303Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 4: MonthlyFeeRequest(callerId=4, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.303Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=4, subscriberId=4, number=79004445566, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.304Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.304Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@24981ff3(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.304Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 5: MonthlyFeeRequest(callerId=5, rateId=12, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.304Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=5, subscriberId=5, number=79005556677, rateId=12, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.305Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.305Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@5ad2d824(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.305Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 6: MonthlyFeeRequest(callerId=6, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.306Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=6, subscriberId=6, number=79006667788, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.306Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.306Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@31aadf07(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.307Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 7: MonthlyFeeRequest(callerId=7, rateId=12, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.307Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=7, subscriberId=7, number=79872332221, rateId=12, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.307Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.307Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@4ec34c7e(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.308Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 8: MonthlyFeeRequest(callerId=8, rateId=12, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.308Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=8, subscriberId=2, number=79008889900, rateId=12, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.308Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.308Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@2a40a5d2(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.309Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 9: MonthlyFeeRequest(callerId=9, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.309Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=9, subscriberId=3, number=79009990011, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.309Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.309Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@661f5b46(byte[52])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=52, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:38:15.310Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Отправка запроса на проверку абонплаты для абонента 10: MonthlyFeeRequest(callerId=10, rateId=11, daysSinceActivation=124)
+brt  | 2025-05-19T10:38:15.310Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.service.impl.BillingServiceImpl  : Информация об абоненте: Caller(callerId=10, subscriberId=3, number=79001001122, rateId=11, rateDate=2025-01-01T00:00, balance=100.00)
+brt  | 2025-05-19T10:38:15.310Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$2343/0x00007f5530d29290 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,4), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884]
+brt  | 2025-05-19T10:38:15.310Z DEBUG 1 --- [ntContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@1aaf265(byte[53])' MessageProperties [headers={__TypeId__=com.romashka.romashka_telecom.brt.model.MonthlyFeeRequest}, contentType=application/json, contentEncoding=UTF-8, contentLength=53, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [monthly-fee-brt-to-hrs.exchange], routingKey = [monthly-fee-brt-to-hrs.routingkey]
+brt  | 2025-05-19T10:39:19.477Z DEBUG 1 --- [pool-2-thread-8] o.s.a.r.listener.BlockingQueueConsumer   : Storing delivery for consumerTag: 'amq.ctag-6Om5qgpWE-a5EkNEIq1buQ' with deliveryTag: '3' in Consumer@66fd7b2: tags=[[amq.ctag-6Om5qgpWE-a5EkNEIq1buQ]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,1), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884], acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:39:19.477Z DEBUG 1 --- [ntContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Received message: (Body:'[B@555eee92(byte[915])' MessageProperties [headers={__TypeId__=java.lang.String}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=cdr.exchange, receivedRoutingKey=cdr.routingkey, deliveryTag=3, consumerTag=amq.ctag-6Om5qgpWE-a5EkNEIq1buQ, consumerQueue=cdr.queue])
+brt  | 2025-05-19T10:39:19.478Z DEBUG 1 --- [ntContainer#0-1] .a.r.l.a.MessagingMessageListenerAdapter : Processing [GenericMessage [payload=byte[915], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=cdr.exchange, amqp_deliveryTag=3, amqp_consumerQueue=cdr.queue, amqp_redelivered=false, amqp_receivedRoutingKey=cdr.routingkey, amqp_contentEncoding=UTF-8, amqp_retryCount=0, id=8a9a4ff1-04ef-dca3-e5c6-4be6475d0157, amqp_consumerTag=amq.ctag-6Om5qgpWE-a5EkNEIq1buQ, amqp_lastInBatch=false, contentType=application/json, __TypeId__=java.lang.String, timestamp=1747651159477}]]
+brt  | 2025-05-19T10:39:19.478Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataListenerServiceImpl   : Получили CSV-пакет (893 байт)
+brt  | 2025-05-19T10:39:19.479Z  WARN 1 --- [ntContainer#0-1] c.r.r.brt.service.impl.CdrCsvParserImpl  : Ошибка валидации: ошибка при разборе даты и времени - Text '2025-05-1T10:06:43.0340908' could not be parsed at index 8
+brt  | 2025-05-19T10:39:19.479Z  WARN 1 --- [ntContainer#0-1] c.r.r.brt.service.impl.CdrCsvParserImpl  : Строка CDR не прошла валидацию: 02,79178748447,79002223344,2025-05-11T10:04:52.0340908,2025-05-1T10:06:43.0340908
+brt  | 2025-05-19T10:39:19.480Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataListenerServiceImpl   : Распарсили 9 записей
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.number 
+brt  |     from
+brt  |         callers c1_0
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number in (?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | 2025-05-19T10:39:19.496Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : Сохранено 3 звонков в таблицу calls
+brt  | 2025-05-19T10:40:34.986Z DEBUG 1 --- [pool-2-thread-9] o.s.a.r.listener.BlockingQueueConsumer   : Storing delivery for consumerTag: 'amq.ctag-6Om5qgpWE-a5EkNEIq1buQ' with deliveryTag: '4' in Consumer@66fd7b2: tags=[[amq.ctag-6Om5qgpWE-a5EkNEIq1buQ]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@172.18.0.2:5672/,1), conn: Proxy@4e365c33 Shared Rabbit Connection: SimpleConnection@59bedf4d [delegate=amqp://guest@172.18.0.2:5672/, localPort=49884], acknowledgeMode=AUTO local queue size=0
+brt  | 2025-05-19T10:40:34.986Z DEBUG 1 --- [ntContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Received message: (Body:'[B@2a77b532(byte[916])' MessageProperties [headers={__TypeId__=java.lang.String}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=cdr.exchange, receivedRoutingKey=cdr.routingkey, deliveryTag=4, consumerTag=amq.ctag-6Om5qgpWE-a5EkNEIq1buQ, consumerQueue=cdr.queue])
+brt  | 2025-05-19T10:40:34.986Z DEBUG 1 --- [ntContainer#0-1] .a.r.l.a.MessagingMessageListenerAdapter : Processing [GenericMessage [payload=byte[916], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=cdr.exchange, amqp_deliveryTag=4, amqp_consumerQueue=cdr.queue, amqp_redelivered=false, amqp_receivedRoutingKey=cdr.routingkey, amqp_contentEncoding=UTF-8, amqp_retryCount=0, id=3d157987-f8ee-ce13-207f-fd5c5fc09f98, amqp_consumerTag=amq.ctag-6Om5qgpWE-a5EkNEIq1buQ, amqp_lastInBatch=false, contentType=application/json, __TypeId__=java.lang.String, timestamp=1747651234986}]]
+brt  | 2025-05-19T10:40:34.986Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataListenerServiceImpl   : Получили CSV-пакет (894 байт)
+brt  | 2025-05-19T10:40:34.989Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataListenerServiceImpl   : Распарсили 10 записей
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.number 
+brt  |     from
+brt  |         callers c1_0
+brt  | Hibernate: 
+brt  |     select
+brt  |         c1_0.caller_id,
+brt  |         c1_0.balance,
+brt  |         c1_0.number,
+brt  |         c1_0.rate_date,
+brt  |         c1_0.rate_id,
+brt  |         c1_0.subscriber_id 
+brt  |     from
+brt  |         callers c1_0 
+brt  |     where
+brt  |         c1_0.number in (?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | Hibernate: 
+brt  |     insert 
+brt  |     into
+brt  |         calls
+brt  |         (call_type, caller_id, contact_number, end_time, start_time) 
+brt  |     values
+brt  |         (?, ?, ?, ?, ?)
+brt  | 2025-05-19T10:40:35.003Z  INFO 1 --- [ntContainer#0-1] c.r.r.b.s.i.CdrDataProcessorServiceImpl  : Сохранено 3 звонков в таблицу calls
